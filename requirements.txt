@@ -1,0 +1,21 @@
+# Core Dependencies
+streamlit>=1.28.0
+langchain>=0.1.0
+langgraph>=0.0.40
+langchain-community>=0.0.20
+
+# LLM Support
+ollama>=0.1.0
+langchain-ollama>=0.0.1
+
+# Database
+sqlite3
+
+# Utilities
+python-dotenv>=1.0.0
+uuid
+asyncio
+
+# Optional (if using OpenAI or Anthropic)
+# openai>=1.0.0
+# anthropic>=0.8.0
