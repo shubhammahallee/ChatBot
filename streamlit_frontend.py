@@ -23,7 +23,7 @@ if user_input:
     # first add the message to message_history
     st.session_state['message_history'].append({'role': 'user', 'content': user_input})
     with st.chat_message('user'):
-        st.text(user_input)
+        st.text(user_input) 
 
     response = chatbot.invoke({'messages': [HumanMessage(content=user_input)]}, config=CONFIG)
     
