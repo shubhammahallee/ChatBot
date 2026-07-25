@@ -2,7 +2,7 @@ import streamlit as st
 from langgraph_database_backend import chatbot, retrieve_all_threads
 from langchain_core.messages import HumanMessage
 import uuid
-
+ 
 # **************************************** utility functions *************************
 
 def generate_thread_id(): 
