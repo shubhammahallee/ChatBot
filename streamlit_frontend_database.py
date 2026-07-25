@@ -67,7 +67,7 @@ for thread_id in st.session_state['chat_threads'][::-1]:
 # **************************************** Main UI ************************************
 
 # loading the conversation history
-for message in st.session_state['message_history']:
+for message in st.session_state['message_history']: 
     with st.chat_message(message['role']):
         st.text(message['content'])
 
