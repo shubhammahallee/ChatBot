@@ -1,6 +1,6 @@
 import streamlit as st 
 from langgraph_backend import chatbot
-from langchain_core.messages import HumanMessage 
+from langchain_core.messages import HumanMessage   
 
 # st.session_state -> dict -> 
 CONFIG = {'configurable': {'thread_id': 'thread-1'}}
