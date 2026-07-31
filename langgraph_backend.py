@@ -13,7 +13,6 @@ llm = ChatOllama(model="llama3", temperature=0.7)
 #llm = ChatOllama(model="mistral")
 #llm = ChatOllama(model="phi3")
 
-
 class ChatState(TypedDict):
     messages: Annotated[list[BaseMessage], add_messages]
 
