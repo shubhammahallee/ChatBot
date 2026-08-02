@@ -1,4 +1,4 @@
-from langgraph.graph import StateGraph, START, END 
+from langgraph.graph import StateGraph, START, END  
 from typing import TypedDict, Annotated
 from langchain_core.messages import BaseMessage
 from langchain_ollama import ChatOllama
