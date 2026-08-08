@@ -27,7 +27,7 @@ def load_conversation(thread_id):
 
 # **************************************** Session Setup ******************************
 if 'message_history' not in st.session_state:
-    st.session_state['message_history'] = []
+    st.session_state['message_history'] = [] 
 
 if 'thread_id' not in st.session_state:
     st.session_state['thread_id'] = generate_thread_id() 
